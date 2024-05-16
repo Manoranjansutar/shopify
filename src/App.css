@@ -1,0 +1,53 @@
+@media only screen and (max-width: 414px) {
+    .bestofelectronics{
+        flex-direction: column;
+    }
+    .slick-slide img {
+        margin: 0 auto; /* Center the image horizontally */
+      }
+      .product{
+        margin:  0 auto;
+      }
+      .product-page-details .main-img{
+        height: 300px;
+        width: 300px;
+      }
+      .product-page-details .small-img{
+        width: 70px;
+        height: 70px;
+      }
+      .brand-sidebar{
+        height: 150px;
+      }
+      .shop{
+        height: 120px !important;
+        overflow: hidden;
+      }
+      .responsive-img img{
+        height: 150px;
+      }
+      .popup-content{
+        flex-direction: column;
+      }
+      .loginmodal{
+        flex-direction: column;
+      }
+  }
+
+  @media only screen and(max-width:576px){
+    .loginmodal{
+      flex-direction: column;
+    }
+    .product{
+      margin:  0 auto;
+    }
+  }
+
+  @media only screen and(max-width:768px){
+    .loginmodal{
+      flex-direction: column;
+    }
+    .product{
+      margin:  0 auto;
+    }
+  }
